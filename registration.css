@@ -1,0 +1,44 @@
+form {
+	background: #eee;
+	padding: 40px;
+	max-width: 400px;
+	margin: 0 auto;
+	min-height: 70px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	padding-bottom: 20px;
+}
+ul li label {
+	display: inline-block;
+	width: 50%;
+}
+input {
+	width: 45%;
+}
+button[type=submit] {
+	width: 100%;
+}
+.link {
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	text-align: center;
+	font-size: 18pt;
+	background: #dbc2ad;
+	color: #000;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	border: 2px solid #000;
+	padding: 20px;
+}
+.link .subTextLink{
+	font-size: 14pt;
+}
+.hidden {
+	display: none;
+}

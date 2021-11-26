@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Arial", Helvatica;
+	font-size: 16px;
+	background: #333;
+}
+
+p{
+    color: #fff;
+}
+
+button {
+	border: none;
+	background: #dbc2ad;
+	color: #fff;
+	width: 50px;
+	margin: 5px;
+	padding: 5px;
+	height: 25px;
+}
+
+button:hover {
+	background: #dbc2ad;
+}
+
+canvas {
+	background: rgb(193, 196, 196);
+	background: #333;
+}
+
+button.end-button, button.new-game {
+	border: none;
+	background: #dbc2ad;
+	color: #fff;
+	width: auto;
+	height: auto;
+}
+
+span.word {
+	font-size: 25px;
+    color: #fff
+}
+
+input.input-guess {
+    color: #fff;
+	background: #dbc2ad;
+	font-family: Arial black;
+	text-align: center;
+}
+input.input-guess::placeholder {
+    color: #fff;
+}
+
+.gameName {
+    color: #dbc2ad;
+    text-align: center;
+    margin-top: 5%;
+}
+
+div#content {
+	text-align: center;
+	padding: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding: 10px;
+}
+
+div.copy {
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+#end .output {
+	text-align: center;
+	margin: 25px;
+	z-index: 999;
+	margin: 25px;
+}
